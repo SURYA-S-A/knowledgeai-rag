@@ -37,3 +37,6 @@ Thumbs.db
 
 # Environment variables
 .env
+
+# Qdrant data files
+qdrant_data/

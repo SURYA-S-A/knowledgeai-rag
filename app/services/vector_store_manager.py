@@ -4,15 +4,12 @@ from qdrant_client import QdrantClient, models
 from qdrant_client.models import Distance, VectorParams, PayloadSchemaType
 from langchain_qdrant import QdrantVectorStore
 from langchain_core.documents import Document
-from app.config.settings import settings
+from app.services.qdrant_client import create_qdrant_client
 
 
 class VectorStoreManager:
     def __init__(self, embeddings: HuggingFaceEmbeddings) -> None:
-        self.client = QdrantClient(
-            api_key=settings.QDRANT_API_KEY,
-            url=settings.QDRANT_URL,
-        )
+        self.client: QdrantClient = create_qdrant_client()
         self.embeddings = embeddings
 
     def _get_vector_size(self) -> int:
