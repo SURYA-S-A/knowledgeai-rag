@@ -4,8 +4,8 @@ from langgraph.types import Command
 from langchain_core.messages import ToolMessage
 from langgraph.prebuilt import InjectedState
 from langchain_core.tools import InjectedToolCallId
-from app.models.models import RAGQueryMetadata, RAGQueryRequest
-from app.services.rag_pipeline import RAGPipeline
+from knowledgeai_rag_api.models.models import RAGQueryMetadata, RAGQueryRequest
+from knowledgeai_rag_api.services.rag_pipeline import RAGPipeline
 from langchain_core.runnables import RunnableConfig
 
 

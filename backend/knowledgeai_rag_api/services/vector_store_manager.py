@@ -4,7 +4,7 @@ from qdrant_client import QdrantClient, models
 from qdrant_client.models import Distance, VectorParams, PayloadSchemaType
 from langchain_qdrant import QdrantVectorStore
 from langchain_core.documents import Document
-from app.services.qdrant_client import create_qdrant_client
+from knowledgeai_rag_api.services.qdrant_client import create_qdrant_client
 
 
 class VectorStoreManager:

@@ -1,7 +1,7 @@
 from typing import Optional
 from langchain.chat_models import init_chat_model
 from langchain_core.language_models import BaseChatModel
-from app.config.settings import settings
+from knowledgeai_rag_api.core.settings import settings
 
 
 class LLMManager:

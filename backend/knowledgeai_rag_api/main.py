@@ -1,19 +1,19 @@
 from typing import List, Optional
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
-from app.models.models import (
+from knowledgeai_rag_api.models.models import (
     InitCollectionRequest,
     KnowledgeBotRequest,
     StoreDocsRequest,
     QueryRequest,
 )
 from fastapi.middleware.cors import CORSMiddleware
-from app.services.services_registry import file_processor
-from app.services.services_registry import vector_store_manager
-from app.services.services_registry import knowledge_bot_app
+from knowledgeai_rag_api.services.services_registry import file_processor
+from knowledgeai_rag_api.services.services_registry import vector_store_manager
+from knowledgeai_rag_api.services.services_registry import knowledge_bot_app
 
 
 app = FastAPI(
-    title="RAG API",
+    title="KnowledgeAI RAG API",
     version="1.0.0",
     root_path="/api",
     docs_url="/swagger",

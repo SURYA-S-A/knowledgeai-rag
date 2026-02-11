@@ -2,7 +2,7 @@ from typing import Optional
 from pydantic import model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-from app.config.constants import QdrantMode
+from knowledgeai_rag_api.config.constants import QdrantMode
 
 
 class Settings(BaseSettings):

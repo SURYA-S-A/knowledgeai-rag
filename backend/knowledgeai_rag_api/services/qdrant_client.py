@@ -1,5 +1,5 @@
 from qdrant_client import QdrantClient
-from app.config.settings import settings, QdrantMode
+from knowledgeai_rag_api.core.settings import settings, QdrantMode
 
 
 def create_qdrant_client() -> QdrantClient:

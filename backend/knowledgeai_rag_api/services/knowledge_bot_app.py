@@ -4,16 +4,16 @@ from langchain_core.prompts import MessagesPlaceholder
 from langgraph.checkpoint.memory import MemorySaver
 from langchain_core.runnables import RunnableConfig
 from langchain_core.messages import HumanMessage, SystemMessage
-from app.models.models import (
+from knowledgeai_rag_api.models.models import (
     KnowledgeBotRequest,
 )
-from app.models.knowledge_bot_pipeline import KnowledgeBotState
-from app.services.llm_manager import LLMManager
+from knowledgeai_rag_api.models.knowledge_bot_pipeline import KnowledgeBotState
+from knowledgeai_rag_api.services.llm_manager import LLMManager
 from langchain_core.prompts import ChatPromptTemplate
 from langgraph.graph.state import CompiledStateGraph
 from langgraph.graph import END, StateGraph
 from IPython.display import Image, display
-from app.services.knowledge_bot_tools import KnowledgeTools
+from knowledgeai_rag_api.services.knowledge_bot_tools import KnowledgeTools
 
 
 memory_saver = MemorySaver()

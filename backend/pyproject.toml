@@ -1,9 +1,9 @@
 [project]
-name = "rag-chatbot-backend-playground"
+name = "knowledgeai-rag-api"
 version = "0.1.1"
-description = ""
+description = "A Retrieval-Augmented Generation (RAG) API built with FastAPI."
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Surya A",email = "15arul.surya16@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11,<4.0"

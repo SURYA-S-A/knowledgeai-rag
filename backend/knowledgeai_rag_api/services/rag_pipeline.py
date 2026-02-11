@@ -3,13 +3,13 @@ from langgraph.graph import START, END, StateGraph
 from langchain_core.prompts import ChatPromptTemplate
 from langgraph.graph.state import CompiledStateGraph
 from IPython.display import Image, display
-from app.models.rag_pipeline_state import RAGPipelineState
-from app.models.models import (
+from knowledgeai_rag_api.models.rag_pipeline_state import RAGPipelineState
+from knowledgeai_rag_api.models.models import (
     RAGQueryRequest,
     RAGQueryResponse,
 )
-from app.services.llm_manager import LLMManager
-from app.services.vector_store_manager import VectorStoreManager
+from knowledgeai_rag_api.services.llm_manager import LLMManager
+from knowledgeai_rag_api.services.vector_store_manager import VectorStoreManager
 
 
 class RAGPipeline:
