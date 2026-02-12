@@ -1,0 +1,40 @@
+# Local models / embeddings
+local_models
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv
+venv/
+
+# Environment files
+.env
+.env.*
+
+# Git
+.git
+.gitignore
+
+# IDE / Editor
+.vscode
+.idea
+
+# Tests / cache
+.pytest_cache
+.mypy_cache
+.coverage
+htmlcov
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker files (optional)
+docker-compose.yml

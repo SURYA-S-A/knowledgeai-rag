@@ -136,8 +136,8 @@ export default function KnowledgeChatBot() {
 
     return (
         <div className="fixed inset-0 flex flex-col bg-gray-50 dark:bg-gray-900">
-            <ChatBotTitleBar title="Smith - AI Knowledge Bot" subtitle="Knowledge Support Bot" onNewChat={startNewChat} isStartingNewChat={isStartingNewChat} isBotTyping={isBotTyping} />
-            <ChatWindow messages={messages} botName="Smith" chatWindowPlaceholder="Upload the document and ask queries regarding document!" isBotTyping={isBotTyping} />
+            <ChatBotTitleBar title="Jarvis - AI Knowledge Bot" subtitle="Knowledge Support Bot" onNewChat={startNewChat} isStartingNewChat={isStartingNewChat} isBotTyping={isBotTyping} />
+            <ChatWindow messages={messages} botName="Jarvis" chatWindowPlaceholder="Upload the document and ask queries regarding document!" isBotTyping={isBotTyping} />
             <KnowledgeBotChatActionBar threadId={threadId} setMessages={setMessages} setIsBotTyping={setIsBotTyping} isBotTyping={isBotTyping} inputPlaceholder="Ask queries related to documents once you uploaded..." messages={messages} />
         </div>
     );
