@@ -1,6 +1,6 @@
 [project]
 name = "knowledgeai-rag-api"
-version = "0.1.1"
+version = "1.0.0"
 description = "A Retrieval-Augmented Generation (RAG) API built with FastAPI."
 authors = [
     {name = "Surya A",email = "15arul.surya16@gmail.com"}

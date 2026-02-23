@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.0] - 2026-02-23
+
+### Added
+- Next.js frontend with knowledge bot chat interface
+- File upload UI with document selection for focused retrieval
+- Docker Compose setup with Qdrant, backend, and frontend services
+- Containerized backend and frontend with multi-stage Dockerfiles
+
+### Changed
+- Project structure with `backend/` and `frontend/` folders
+
+---
+
 ## [0.1.1] - 2026-02-08
 
 ### Changed
